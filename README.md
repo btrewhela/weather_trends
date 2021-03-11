@@ -15,8 +15,8 @@ These datasets contains global yearly average temperatures and Santiago's yearly
 
 ## Considerations and Limitations
 
-The code calculates moving averages with a window of 10 years. This can be modified in the *ma_window* variable.
+1. The code calculates moving averages with a window of 10 years. This can be modified in the *ma_window* variable.
 
-Null values are treated during the data gathering process. In this case, both datasets contain the same years.
+2. Null values are treated during the data gathering process. In this case, both datasets contain the same years.
 
-The plot *x_ticks* is calculated for this particular time series and is not generalized.
+3. The plot *x_ticks* is calculated for this particular time series and is not generalized.
